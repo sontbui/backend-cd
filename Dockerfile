@@ -7,7 +7,7 @@ WORKDIR /app
 # Bước 3: Sao chép file JAR vào container
 COPY target/banCD-0.0.1-SNAPSHOT.jar app.jar
 
-# Bước 4: Mở port 8080
+# Bước 4: Mở port 8088
 EXPOSE 8088
 
 # Bước 5: Chạy ứng dụng

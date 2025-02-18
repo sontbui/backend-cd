@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/banCD-0.0.1-SNAPSHOT.jar app.jar
 
 # Bước 4: Mở port 8080
-EXPOSE 8080
+EXPOSE 8088
 
 # Bước 5: Chạy ứng dụng
 ENTRYPOINT ["java", "-jar", "app.jar"]

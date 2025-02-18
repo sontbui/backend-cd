@@ -1,7 +1,7 @@
-# Bước 1: Sử dụng image OpenJDK
+# Bước 1: Chọn image cần thiết
 FROM openjdk:17-jdk-slim
 
-# Bước 2: Đặt thư mục làm việc trong container
+# Bước 2: Đặt thư mục làm việc
 WORKDIR /app
 
 # Bước 3: Sao chép file JAR vào container
@@ -12,6 +12,3 @@ EXPOSE 8080
 
 # Bước 5: Chạy ứng dụng
 ENTRYPOINT ["java", "-jar", "app.jar"]
-
-# asdadsadasdadsasd
-# adsad

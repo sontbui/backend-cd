@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Bước 3: Sao chép file JAR vào container
-COPY target/my-spring-boot-app.jar app.jar
+COPY target/banCD-0.0.1-SNAPSHOT.jar app.jar
 
 # Bước 4: Mở port 8080
 EXPOSE 8080

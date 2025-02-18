@@ -13,4 +13,5 @@ EXPOSE 8080
 # Bước 5: Chạy ứng dụng
 ENTRYPOINT ["java", "-jar", "app.jar"]
 
-# asdadsadasd
+# asdadsadasdadsasd
+# adsad
